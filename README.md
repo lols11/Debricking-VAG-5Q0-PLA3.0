@@ -1,2 +1,18 @@
-# Debricking-VAG-5Q0-PLA3.0
+# Debricking VAG 5Q0 PLA3.0
 Story about trying to debrick a PLA3.0 module
+
+When I tried to flash the 5Q0 (MQB) module to 7N0 (PQ), the module went brr and stopped communicating. 
+
+![image](https://github.com/user-attachments/assets/e4c1b6f5-09e4-42e7-a3d9-83939899047b)
+
+This repository describes the attempt to bring it back to life (still ongoing!).
+
+## JTAG Pinout
+![jtag](https://github.com/user-attachments/assets/cfb5fcb9-5bf5-4f31-b460-0e14acb20416)
+
+
+- Module P/N: 5Q0 919 298 C, H08
+- MCU used: SPC56AP60L3 (LQFP100, 1 MB Flash)
+- [Datasheet](https://www.st.com/en/automotive-microcontrollers/spc56ap60l3.html)
+
+The most important question right now is whether the JTAG interface is unlocked. I haven’t checked that yet.
