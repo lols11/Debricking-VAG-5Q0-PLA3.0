@@ -1,7 +1,7 @@
 # Debricking VAG 5Q0 PLA3.0
 Story about trying to debrick a PLA3.0 module
 
-When I tried to flash the 5Q0 (MQB) module to 7N0 (PQ), the module went brr and stopped communicating. 
+When I tried to flash the 5Q0 (MQB) module with the 7N0 (PQ) firmware, it gave me the silent treatment and left me with zero communication
 
 ![image](https://github.com/user-attachments/assets/e4c1b6f5-09e4-42e7-a3d9-83939899047b)
 
