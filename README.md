@@ -27,3 +27,11 @@ MCU is powered via LDO Regulator (NCV4263-2C) with Watchdog. WD is reseted by ri
 - [Datasheet](https://www.st.com/en/automotive-microcontrollers/spc56ap60l3.html)
 
 The most important question right now is whether the JTAG interface is unlocked. I haven’t checked that yet.
+
+## License
+Debricking VAG 5Q0 PLA3.0 © 2024 by lols11 
+
+![License](https://img.shields.io/static/v1?label=license&message=CC-BY-4.0&color=green)
+
+
+
