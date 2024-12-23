@@ -1,5 +1,7 @@
 # Debricking VAG 5Q0 PLA3.0
-Story about trying to debrick a PLA3.0 module
+This is a story about trying to debrick a PLA3.0 module
+
+
 
 When I tried to flash the 5Q0 (MQB) module with the 7N0 (PQ) firmware, it gave me the silent treatment and left me with zero communication
 
@@ -8,8 +10,17 @@ When I tried to flash the 5Q0 (MQB) module with the 7N0 (PQ) firmware, it gave m
 This repository describes the attempt to bring it back to life (still ongoing!).
 
 ## JTAG Pinout
-![jtag](https://github.com/user-attachments/assets/cfb5fcb9-5bf5-4f31-b460-0e14acb20416)
+![jtag](https://github.com/user-attachments/assets/49b42cec-dd76-44a0-92d1-e65852e6f4d3)
 
+
+## Power supply
+
+MCU is powered via LDO Regulator (NCV4263-2C) with Watchdog. WD is reseted by rising edge from pin 10 of MCU, so it's need to be bypassed for JTAG access. According to the datasheet, to disable WD pin 5 (DelayTiming) needs to be lifted (NC). (If you have a better idea, please contact me, as I don't have much experience in this type of thing)
+
+
+[NCV4263-2C Datasheet](https://www.onsemi.com/download/data-sheet/pdf/ncv4263-2c-d.pdf)
+
+## Overview 
 
 - Module P/N: 5Q0 919 298 C, H08
 - MCU used: SPC56AP60L3 (LQFP100, 1 MB Flash)
