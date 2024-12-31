@@ -20,6 +20,17 @@ This repository describes the attempt to bring it back to life (still ongoing!).
 I used the uLink-NT programmer to read the MCU, but the RESET pin from the programmer had to be disconnected (with it connected, there were some reading errors).
 ***The MCU must be powered directly.*** I achieved error-free memory readings at a voltage of 3.5V. Reading was unsuccessful when using a 12V VIN power supply or directly supplying 5V (the default operating voltage).
 
+```
+onCE JTAG ID 	0x07E2C01D
+MCU ID    56A6   Version 0.1
+SSCM STATUS    0870   NexusStatus = 1 
+SSCM MEMCONFIG 8923   JPIN = 0x224
+MCR C3F88000  Value= 03700600 
+MCR C3F88000  Value= 03700600 
+MCR C3F8C000  Value= 06670600 
+Found Address= 00000000 Code Flash
+Found Address= 00800000 Data Flash
+```
 
 ## Watchdog
 
