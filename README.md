@@ -18,7 +18,7 @@ This repository describes the attempt to bring it back to life (still ongoing!).
 **JTAG is fully unlocked**
 
 I used the uLink-NT programmer to read the MCU, but the RESET pin from the programmer had to be disconnected (with it connected, there were some reading errors).
-***The MCU must be powered directly.*** I achieved error-free memory readings at a voltage of 3.5V. Reading was unsuccessful when using a 12V VIN power supply or directly supplying 5V (the default operating voltage).
+***The MCU must be powered directly.*** I achieved error-free memory readings at a voltage of 3.3V. Reading was unsuccessful when using a 12V VIN power supply or directly supplying 5V (the default operating voltage).
 
 ```
 onCE JTAG ID 	0x07E2C01D
@@ -34,9 +34,11 @@ Found Address= 00800000 Data Flash
 
 ## Watchdog
 
-**We probably don't have to worry about the watchdog as we power the MCU directly.**
+~~We probably don't have to worry about the watchdog as we power the MCU directly~~
 
-MCU is powered via LDO Regulator (NCV4263-2C) with Watchdog. WD is reseted by rising edge from pin 10 of MCU, so it's need to be bypassed for JTAG access. According to the datasheet, to disable WD pin 5 (DelayTiming) needs to be lifted (NC). (If you have a better idea, please contact me, as I don't have much experience in this type of thing)
+MCU is powered via LDO Regulator (NCV4263-2C) with Watchdog. WD is reseted by rising edge from pin 10 of MCU, so it's need to be bypassed for JTAG access. 
+
+According to the datasheet, to disable WD pin 5 (DelayTiming) needs to be lifted (NC). By unofficial method, WatchDog can also be disabled by pulling DelayTiming to VCC
 
 
 [NCV4263-2C Datasheet](https://www.onsemi.com/download/data-sheet/pdf/ncv4263-2c-d.pdf)
