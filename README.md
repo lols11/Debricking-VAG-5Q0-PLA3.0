@@ -12,7 +12,8 @@ When I tried to flash the 5Q0 (MQB) module with the 7N0 (PQ) firmware, it gave m
 This repository describes the attempt to bring it back to life (still ongoing!).
 
 ## JTAG 
-![jtag](https://github.com/user-attachments/assets/49b42cec-dd76-44a0-92d1-e65852e6f4d3)
+![jtag](https://github.com/user-attachments/assets/ec61c51c-9507-4ce5-855a-0019baa4c944)
+
 
 
 **JTAG is fully unlocked**
