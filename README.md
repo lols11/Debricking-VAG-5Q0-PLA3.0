@@ -9,7 +9,7 @@ When I tried to flash the 5Q0 (MQB) module with the 7N0 (PQ) firmware, it gave m
 
 ![image](https://github.com/user-attachments/assets/e4c1b6f5-09e4-42e7-a3d9-83939899047b)
 
-This repository describes the attempt to bring it back to life (still ongoing!).
+This repository describes the attempt to bring it back to life ~~(still ongoing!)~~.
 
 ## JTAG 
 ![jtag](https://github.com/user-attachments/assets/ec61c51c-9507-4ce5-855a-0019baa4c944)
@@ -43,6 +43,13 @@ According to the datasheet, to disable WD pin 5 (DelayTiming) needs to be lifted
 
 
 [NCV4263-2C Datasheet](https://www.onsemi.com/download/data-sheet/pdf/ncv4263-2c-d.pdf)
+
+## The finale
+
+Soo long story short, after creating new target in u-Link NT software (TSPC56AP60L3.xml) and flashing it with firmware from working module, 
+everything came back to life :) 
+
+<img width="1507" height="736" alt="image" src="https://github.com/user-attachments/assets/93b39e4b-73ea-4d94-ada9-a1239862bd48" />
 
 ## Overview 
 
