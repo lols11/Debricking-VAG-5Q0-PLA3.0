@@ -57,6 +57,16 @@ everything came back to life :)
 - MCU used: SPC56AP60L3 (LQFP100, 1 MB Flash)
 - [Datasheet](https://www.st.com/en/automotive-microcontrollers/spc56ap60l3.html)
 
+## What next? 
+Currently RE-ing the 7N0 F firmware. I've customized OpenOCD to get it working with this CPU in debug mode.
+
+Primary goals:
+
+- Patching out the ESP_33 requirement
+- Porting datasets from PLA 2.5 (1k8)
+
+Secondary goals:
+- Maneuver braking (maybe???)
 
 ## License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/lols11/Debricking-VAG-5Q0-PLA3.0">Debricking VAG 5Q0 PLA3.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/lols11">lols11</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
