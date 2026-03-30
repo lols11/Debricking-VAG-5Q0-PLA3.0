@@ -57,7 +57,7 @@ everything came back to life :)
 - MCU used: SPC56AP60L3 (LQFP100, 1 MB Flash)
 - [Datasheet](https://www.st.com/en/automotive-microcontrollers/spc56ap60l3.html)
 
-## What next? 
+## What's next? 
 Currently RE-ing the 7N0 F firmware. I've customized OpenOCD to get it working with this CPU in debug mode.
 
 Primary goals:
