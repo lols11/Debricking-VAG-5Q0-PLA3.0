@@ -68,6 +68,11 @@ Primary goals:
 Secondary goals:
 - Maneuver braking (maybe???)
 
+## Files
+- TSPC56AP60L3.xml - Target settings for uLink-NT programmer
+- 7N0SecurityAccessCodes.txt - Security access codes recovered from firmware
+- appchk.py - Python script for recalculating the application part of the firmware checksum, the bootloader is omitted from this checksum.
+
 ## License
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/lols11/Debricking-VAG-5Q0-PLA3.0">Debricking VAG 5Q0 PLA3.0</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/lols11">lols11</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>
 
