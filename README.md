@@ -62,7 +62,7 @@ Currently RE-ing the 7N0 F firmware. I've customized OpenOCD to get it working w
 
 Primary goals:
 
-- Patching out the ESP_33 requirement
+- ~Patching out the ESP_33 requirement~ Partially done
 - Porting datasets from PLA 2.5 (1k8)
 
 Secondary goals:
